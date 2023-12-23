@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+name: JMS
+file_extensions: [jsm]
+scope: source.JMS
+
+contexts:
+  main:
+    - match: 'B' # brick
+      scope: markup.bold
+    - match: 'J' # jumper
+      scope: invalid
+    - match: 'a' # air
+      scope: comment.block
+    - match: 'F' # flag
+      scope: invalid
+    - match: 'C' # bluecoin
+      scope: invalid
+    - match: 'c' # goldcoin
+      scope: invalid
+    - match: 'b' # box
+      scope: invalid
+    - match: '×' #spike floor
+      scope: keyword
+    - match: 't' # floor-turret
+      scope: keyword
+    - match: 'm' # machine gunner
+      scope: keyword
+    - match: 's' # siren
+      scope: keyword
+    - match: 'l' # lazergunner
+      scope: keyword
+    - match: '\+' # hp
+      scope: invalid
