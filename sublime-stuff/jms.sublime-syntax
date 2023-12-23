@@ -1,7 +1,7 @@
 %YAML 1.2
 ---
 name: JMS
-file_extensions: [jsm]
+file_extensions: [jms]
 scope: source.JMS
 
 contexts:
