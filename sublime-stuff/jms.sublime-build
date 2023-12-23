@@ -1,0 +1,3 @@
+{
+	"shell_cmd": "python /path_to_file/ jconvert.py $file"
+}
